@@ -1,7 +1,7 @@
 import React from "react";
 
 function Hobbies ({ hobbies }) {
-  const list = hobbies.map((hobby) => <li>{hobby}</li>);
+  const list = hobbies.map((hobby, index) => <li key={index}>{hobby}</li>);
   return (
     <div>
       <h3>Hobbies</h3>

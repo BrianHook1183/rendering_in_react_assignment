@@ -1,6 +1,5 @@
 import React from "react";
-import ProfPic from "./Components/ProfPic";
-import MainInfo from "./Components/MainInfo";
+import Banner from "./Components/Banner";
 import Hobbies from "./Components/Hobbies";
 import Schedule from "./Components/Schedule";
 
@@ -53,8 +52,7 @@ const dailyActivities = [
 function App() {
   return (
     <div>
-      <ProfPic imageSrc={imageSrc} />
-      <MainInfo name={name} birthday={birthday} />
+      <Banner imageSrc={imageSrc} name={name} birthday={birthday}/>
       <Hobbies hobbies={hobbies} />
       <Schedule schedule={dailyActivities} />
     </div>

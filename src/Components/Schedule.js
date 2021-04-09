@@ -1,8 +1,8 @@
 import React from "react";
 
 function Schedule({ schedule }) {
-  const list = schedule.map((item) => (
-    <tr>
+/*   const list = schedule.map((item, index) => (
+    <tr key={index}>
       <td>{item.time}</td>
       <td>{item.description}</td>
     </tr>
@@ -16,7 +16,8 @@ function Schedule({ schedule }) {
       </tr>
       {list}
     </table>
-  );
+  ); */
+  return "hello";
 }
 
 export default Schedule;
